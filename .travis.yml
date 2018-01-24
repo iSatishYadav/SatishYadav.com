@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "8"
 after_success:
-  "curl -T resume.html -u $sydc_u:$sydc_p ftp://$sydc_i/$sydc_f"
+  "curl -T resume.html -u $sydc_u:$sydc_p ftp://$sydc_i/$sydc_f/beta.html"
