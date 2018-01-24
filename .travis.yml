@@ -3,3 +3,4 @@ node_js:
    - "8"
 after_success:
   "node index.js"
+  "curl -T resume.html -u $sydc_u:$sydc_p ftp://$sydc_i/$sydc_f"
