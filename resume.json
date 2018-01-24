@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Satish Yadav",
+    "label": "Audiophile, Rider and Turns Coffee into Code for a Fortune 500 Company for living",
+    "picture": "https://graph.facebook.com/100001257543526/picture?type=large",
+    "email": "hello@satishyadav.com",
+    "phone": "+91 9167005157",
+    "website": "https://satishyadav.com",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Mumbai",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "punskaari",
+        "url": "https://twitter.com/punskaari"
+      },
+      {
+        "network": "facebook",
+        "username": "yadavsatish",
+        "url": "https://fb.me/yadavsatish"
+      },
+      {
+        "network": "github",
+        "username": "iSatishYadav",
+        "url": "https://github.com/iSatishYadav"
+      },
+      {
+        "network": "Instagram",
+        "username": "punskari",
+        "url": "https://instagram.com/punskaari"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Bharat Petroleum Corp. Ltd.",
+      "position": "Management Trainee",
+      "website": "",
+      "startDate": "2014-05-09",
+      "endDate": "2015-03-31",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Bharat Petroleum Corp. Ltd.",
+      "position": "Executive",
+      "website": "",
+      "startDate": "2015-04-01",
+      "endDate": "2017-03-31",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Bharat Petroleum Corp. Ltd.",
+      "position": "Assistant Manager",
+      "website": "",
+      "startDate": "2017-04-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Maulana Azad National Institute of Technology",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2010-07-01",
+      "endDate": "2014-05-31",
+      "gpa": "7.8",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Microsoft Certified Professional",
+      "date": "2017-02-18",
+      "awarder": "Microsoft",
+      "summary": ""
+    },
+    {
+      "title": "Microsoft Export - Programming in C#",
+      "date": "2017-02-18",
+      "awarder": "Microsoft",
+      "summary": ""
+    },
+    {
+      "title": "Chief Minister's Excellence Award",
+      "date": "2010-06-08",
+      "awarder": "Govt. of Madhya Pradesh",
+      "summary": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Back-end",
+      "level": "",
+      "keywords": [
+        "C#",
+        "ASP.NET MVC",
+        "Web-API",
+        "REST"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": [
+        "Some ES6",
+        "Little bit of Node.js",
+        "jQuery",
+        "AJAX"
+      ]
+    },
+    {
+      "name": "Front-end tools",
+      "level": "",
+      "keywords": [
+        "NPM",
+        "Gulp",
+        "Bower"
+      ]
+    },
+    {
+      "name": "IDEs, Editors",
+      "level": "",
+      "keywords": [
+        "Visual Studio 2017",
+        "Visual Studio Code"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "When not in front of a Computer, I like to ride my Bike",
+      "keywords": [
+        "Riding",
+        "Bike"
+      ]
+    },
+    {
+      "name": "Chances are you'll see me with my Headphones on",
+      "keywords": [
+        "Music"
+      ]
+    }
+  ],
+  "references": []
+}
