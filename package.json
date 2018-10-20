@@ -9,6 +9,7 @@
   "author": "Satish K. Yadav",
   "license": "ISC",
   "dependencies": {
+    "jsonresume-theme-dark-classy-responsive": "1.0.2",
     "jsonresume-theme-eloquent": "^3.0.2"
   }
 }
