@@ -12,5 +12,5 @@ fs.writeFile(path.join(__dirname, '/resume.html'), resumeHTML, function(err) {
     console.log(err || 'Resume exported to resume.html');
 });
 fs.writeFile(path.join(__dirname, '/index.html'), resumeHTML, function(err) {
-    console.log(err || 'Resume exported to resume.html');
+    console.log(err || 'Resume exported to index.html');
 });
