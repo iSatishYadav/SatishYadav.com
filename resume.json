@@ -157,20 +157,6 @@
       ]
     },
     {
-      "name": "Cloud",
-      "level": "",
-      "keywords": [
-        "Azure"
-      ]
-    },
-    {
-      "name": "Databases",
-      "level": "",
-      "keywords": [
-        "SQL Server"        
-      ]
-    },
-    {
       "name": "Front-end",
       "level": "",
       "keywords": [
@@ -182,11 +168,36 @@
       ]
     },
     {
+      "name": "Cloud",
+      "level": "",
+      "keywords": [
+        "Azure"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "SQL Server"
+      ]
+    },
+    {
       "name": "IDEs, Editors",
       "level": "",
       "keywords": [
         "Visual Studio 2019/17/13/12",
         "Visual Studio Code"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": [
+        "Classification",
+        "Natural Language Processing",
+        "R",
+        "ML.NET",
+        "Anomaly Detection"
       ]
     },
     {
@@ -203,17 +214,6 @@
         "OAuth",
         "JWT",
         "HP Fortify"
-      ]
-    },
-    {
-      "name": "Machine Learning",
-      "level": "",
-      "keywords": [
-        "Classification",
-        "Natural Language Processing",
-        "R",
-        "ML.NET",
-        "Anomaly Detection"
       ]
     },
     {
