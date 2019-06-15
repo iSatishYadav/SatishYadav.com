@@ -5,7 +5,7 @@
     "picture": "https://graph.facebook.com/100001257543526/picture?type=large",
     "email": "hello@satishyadav.com",
     "website": "https://satishyadav.com",
-    "summary": "I'm a  Senior Full Stack Developer working mostly on Microsoft and Open-source technologies. From interacting with Business Analysts to Designing, Coding, writing Unit Tests, Security, Code Review, I'm involved in complete SDLC.",
+    "summary": "Senior Full Stack Developer working mostly on Microsoft and Open-source technologies. From interacting with Business Analysts to Designing, Coding, writing Unit Tests, Security, Code Review, involved in complete Enterprise SDLC.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -15,35 +15,40 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "punskaari",
-        "url": "https://twitter.com/punskaari"
-      },
-      {
-        "network": "Facebook",
-        "username": "yadavsatish",
-        "url": "https://fb.me/punskaari"
+        "network": "LinkedIn",
+        "username": "isatishyadav",
+        "url": "https://skyapps.io/r/sVX"
       },
       {
         "network": "Github",
         "username": "iSatishYadav",
-        "url": "https://github.com/iSatishYadav"
+        "url": "https://skyapps.io/r/sVV"
+      },
+      {
+        "network": "Twitter",
+        "username": "punskaari",
+        "url": "https://skyapps.io/r/sVS"
+      },
+      {
+        "network": "Facebook",
+        "username": "punskaari",
+        "url": "https://skyapps.io/r/sVT"
       },
       {
         "network": "Instagram",
         "username": "punskari",
-        "url": "https://instagram.com/punskaari"
+        "url": "https://skyapps.io/r/sVW"
       }
     ]
   },
   "work": [
     {
       "company": "Bharat Petroleum Corp. Ltd.",
-      "position": "Management Trainee",
+      "position": "Assistant Manager",
       "website": "https://www.bharatpetroleum.com/",
-      "startDate": "2014-05-09",
-      "endDate": "2015-03-31",
-      "summary": "Developed Web Applications using ASP.NET Web Forms, MVC 5, jQuery, Razor, Bootstrap, JavaScript, HTML5, CSS3 as front-end and Microsoft SQL Server 2012 with Entity Framework as back-end. Tried my hands on various state of the art technologies like SignalR etc.",
+      "startDate": "2017-04-01",
+      "endDate": "",
+      "summary": "Developing mission critical and internal web applications using Microsoft and Open-Source stack. e.g. ASP.NET MVC 5, .NET Core, Angular 6, OAuth2, REST APIs, Swagger, jQuery, Bootstrap 3, NPM, Entity Framework 6/5, Visual Studio 2017/13/12 etc. Just started with Machine Learning. Personal focus on writing secure code with industry standard best practices and Unit Tests. Technology Enthusiast. Managing third party developers. From interaction with Business Analysts to understand requirements to Design, Code and Unit Test.",
       "highlights": []
     },
     {
@@ -57,11 +62,11 @@
     },
     {
       "company": "Bharat Petroleum Corp. Ltd.",
-      "position": "Assistant Manager",
+      "position": "Management Trainee",
       "website": "https://www.bharatpetroleum.com/",
-      "startDate": "2017-04-01",
-      "endDate": "",
-      "summary": "Developing mission critical and internal web applications using Microsoft and Open-Source stack. e.g. ASP.NET MVC 5, .NET Core, Angular 6, OAuth2, REST APIs, Swagger, jQuery, Bootstrap 3, NPM, Entity Framework 6/5, Visual Studio 2017/13/12 etc. Just started with Machine Learning. Personal focus on writing secure code with industry standard best practices and Unit Tests. Technology Enthusiast. Managing third party developers. From interaction with Business Analysts to understand requirements to Design, Code and Unit Test.",
+      "startDate": "2014-05-09",
+      "endDate": "2015-03-31",
+      "summary": "Developed Web Applications using ASP.NET Web Forms, MVC 5, jQuery, Razor, Bootstrap, JavaScript, HTML5, CSS3 as front-end and Microsoft SQL Server 2012 with Entity Framework as back-end. Tried my hands on various state of the art technologies like SignalR etc.",
       "highlights": []
     }
   ],
@@ -152,11 +157,17 @@
       ]
     },
     {
+      "name": "Cloud",
+      "level": "",
+      "keywords": [
+        "Azure"
+      ]
+    },
+    {
       "name": "Databases",
       "level": "",
       "keywords": [
-        "SQL Server",
-        "MongoDb"
+        "SQL Server"        
       ]
     },
     {
@@ -165,6 +176,7 @@
       "keywords": [
         "Angular",
         "TypeScript",
+        "JavaScript (ES6)",
         "Bootstrap",
         "jQuery"
       ]
@@ -173,7 +185,7 @@
       "name": "IDEs, Editors",
       "level": "",
       "keywords": [
-        "Visual Studio 2017",
+        "Visual Studio 2019/17/13/12",
         "Visual Studio Code"
       ]
     },
@@ -198,9 +210,10 @@
       "level": "",
       "keywords": [
         "Classification",
-        "Natural Language Pro",
+        "Natural Language Processing",
         "R",
-        "ML.NET"
+        "ML.NET",
+        "Anomaly Detection"
       ]
     },
     {
@@ -245,11 +258,11 @@
   ],
   "references": [
     {
-      "name": "Prashant Sharma",
+      "name": "Prashant Sharma (on LinkedIn)",
       "reference": "It is my pleasure to recommend Satish. He is passionate about writing code and solving clients’ problems through the development of creative and innovative software. He has tremendous potential. Satish is vocal about his software ideas, but respects his superiors and enthusiastically tackles every assignment as he is directed. He is friendly, easy to get along with, well-liked by our clients and respected by his co-workers. Forever the student, Satish takes courses frequently to stay up-to-date on the latest techniques in software development. He is able to thoroughly focus on every project and is not easily distracted. He comprehends instructions quickly and is flexible when changes have to be made in the original plan. Satish is a skillful communicator both written and verbal and works extremely well with our clients, some of whom request him specifically to handle their jobs. Satish is dedicated to providing quality work. He checks and rechecks his software before turning it in for presentation to the client. He strives to make his programs as user friendly as possible understanding that not everyone is an expert programmer. He is detail oriented and rarely has any bugs in his finished product. His energy is limitless and his enthusiasm serves to motivate everyone on his team. I am sure he will succeed wherever he goes."
     },
     {
-      "name": "Pradeep Atkari",
+      "name": "Pradeep Atkari (on LinkedIn)",
       "reference": "Satish is a proactive and tireless contributor who would make a great addition to any team. As working with BPCL I met to Satish as part of BITS project team. Satish impressed all of us (whole team of BITS and other colleges) by transforming the logics and full use of technology ensuing awkward silence into a lively icebreaker discussion among the team, and he even initiated a usages of technology, Best practices and design patter for the BITS project which is using by BPCL organization all over the india. Throughout the time when I have been there in project , Satish completed his assignments/task on time and never failed to add a creative touch when appropriate. I would highly recommend his for any position, as he naturally rises to the occasion when presented with something he is passionate about."
     }
   ]
