@@ -17,27 +17,27 @@
       {
         "network": "LinkedIn",
         "username": "isatishyadav",
-        "url": "https://skyapps.io/r/sVX"
+        "url": "https://shawt.io/r/sVX"
       },
       {
         "network": "Github",
         "username": "iSatishYadav",
-        "url": "https://skyapps.io/r/sVV"
+        "url": "https://shawt.io/r/sVV"
       },
       {
         "network": "Twitter",
         "username": "punskaari",
-        "url": "https://skyapps.io/r/sVS"
+        "url": "https://shawt.io/r/sVS"
       },
       {
         "network": "Facebook",
         "username": "punskaari",
-        "url": "https://skyapps.io/r/sVT"
+        "url": "https://shawt.io/r/sVT"
       },
       {
         "network": "Instagram",
         "username": "punskari",
-        "url": "https://skyapps.io/r/sVW"
+        "url": "https://shawt.io/r/sVW"
       }
     ]
   },
@@ -48,7 +48,7 @@
       "website": "https://www.bharatpetroleum.com/",
       "startDate": "2017-04-01",
       "endDate": "",
-      "summary": "Developing mission critical and internal web applications using Microsoft and Open-Source stack. e.g. ASP.NET MVC 5, .NET Core, Angular 6, OAuth2, REST APIs, Swagger, jQuery, Bootstrap 3, NPM, Entity Framework 6/5, Visual Studio 2017/13/12 etc. Just started with Machine Learning. Personal focus on writing secure code with industry standard best practices and Unit Tests. Technology Enthusiast. Managing third party developers. From interaction with Business Analysts to understand requirements to Design, Code and Unit Test.",
+      "summary": "Developing mission critical and internal web applications/APIs using Microsoft and Open-Source stack. e.g. ASP.NET MVC, .NET Core, Angular, OAuth, REST APIs, Swagger, jQuery, Bootstrap, NPM, Entity Framework, Visual Studio 2017/13/12 etc. Just started with Machine Learning. Personal focus on writing secure code with industry standard best practices and Unit Tests. Technology Enthusiast. Managing third party developers. From interaction with Business Analysts to understand requirements to Design, Code and Unit Test.",
       "highlights": []
     },
     {
@@ -93,6 +93,12 @@
     }
   ],
   "awards": [
+    {
+      "title": "Digital PSU for developing on-premise Machine Learning models for solving IT issues.",
+      "date": "2019-02-19",
+      "awarder": "Microsoft",
+      "summary": "- Award"
+    },
     {
       "title": "Microsoft Certified Professional",
       "date": "2017-02-18",
