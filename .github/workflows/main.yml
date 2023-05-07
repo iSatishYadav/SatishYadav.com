@@ -1,0 +1,3 @@
+- name: JSONResume Export
+  uses: kelvintaywl/action-jsonresume-export@v1
+  theme: jsonresume-theme-dark-classy-responsive
