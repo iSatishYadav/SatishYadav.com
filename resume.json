@@ -1,293 +1,526 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Satish Yadav",
-    "label": "Audiophile, Rider, and Turns Coffee into Code for a Fortune 500 Company for living",
-    "picture": "https://graph.facebook.com/100001257543526/picture?type=large",
-    "email": "hello@satishyadav.com",
-    "website": "https://satishyadav.com",
-    "summary": "Manager - Software Development Engineering and Full Stack Developer working mostly on Microsoft and Open-source technologies. From interacting with Business Analysts to Designing, Coding, writing Unit Tests, Security, Code Review, involved in complete Enterprise SDLC.",
+    "label": "Manager @ BPCL • .NET Foundation Member • Microsoft, AWS, Scrum, Git, GraphQL Certified • Full Stack Developer • Open Source Contributor • Content Creator",
+    "image": "",
+    "email": "me.satishyadav@gmail.com",
+    "phone": "9167005157",
+    "url": "",
+    "summary": "• ~ 9 years of demonstrated hands-on polyglot experience in Enterprise Software Development Engineering.\n• Member of .NET Foundation\n• World Rank #1 — Veracode Security Code Challenge\n• Won Digital PSU Award for in-house development of Machine Learning model for Organization's ITSM.\n• AWS, Microsoft, Scrum, Git, and GraphQL Certified.\n• Featured in Microsoft thank you page for OpenSource contribution to Microsoft .NET 6 core runtime repo. \n• Develops Mission Critical REST APIs, Web Applications, Webhooks, Command Line Interfaces, and Libraries.\n• Solution Architecture, High Level Design, Low Level Design, Coding, Writing Unit Tests, Documentation, UI, API, and Database Design & Development, Code Security Review, and Complete SDLC.\n• Uncrowned Chief Application Code Security Officer for Microsoft and Open-Source technologies.\n• Empowers a team of 3 external developers and mentors fellow and junior Developers.\n• Blogger, Vlogger, YouTuber, and Content Creator. \n\nSkills:\n\n• C#, Node.js, Angular, JavaScript — ES6+, TypeScript, T/SQL\n• ML.NET, Machine Learning\n• .NET 7, .NET Core, .NET Framework, ASP.NET MVC, Entity Framework, EF Core\n• HTML, CSS, Bootstrap, jQuery\n• Visual Studio, VS Code, Git, TFVC, Azure DevOps, Team Foundation Server, GitHub\n• GraphQL, REST APIs, gRPC, OpenAPI (FKA Swagger), JSON\n• OWASP, MicroFocus Fortify (FKA HP Fortify), Unit Testing, MSTest, Moq, Jasmine, Karma\n• SQL Server, MSMQ, Hangfire\n• Azure, AWS, Docker\n• Clean Code, TDD, CQRS, MediatR\n• RPA – Microsoft Power Automate, Selenium IDE",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Mumbai",
-      "countryCode": "IN",
-      "region": "Maharashtra"
+      "countryCode": "US",
+      "address": "India"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "isatishyadav",
-        "url": "https://shawt.io/r/sVX"
-      },
-      {
-        "network": "Github",
-        "username": "iSatishYadav",
-        "url": "https://shawt.io/r/sVV"
-      },
-      {
-        "network": "Twitter",
-        "username": "punskaari",
-        "url": "https://shawt.io/r/sVS"
-      },
-      {
-        "network": "Facebook",
-        "username": "punskaari",
-        "url": "https://shawt.io/r/sVT"
-      },
-      {
-        "network": "Instagram",
-        "username": "punskari",
-        "url": "https://shawt.io/r/sVW"
+        "url": "https://www.linkedin.com/in/isatishyadav/"
       }
     ]
   },
   "work": [
-  {
-      "company": "Bharat Petroleum Corp. Ltd.",
+    {
+      "name": "Bharat Petroleum Corporation Limited",
       "position": "SAP Development Manager",
-      "website": "https://www.bharatpetroleum.com/",
-      "startDate": "2023-05-01",
+      "startDate": "2023-05-31",
       "endDate": "",
-      "summary": "Managing SAP Development",
-      "highlights": []
-    },
-   {
-      "company": "Bharat Petroleum Corp. Ltd.",
-      "position": "Manager",
-      "website": "https://www.bharatpetroleum.com/",
-      "startDate": "2021-04-01",
-      "endDate": "",
-      "summary": "Developing mission critical and internal web applications/APIs using Microsoft and Open-Source stack. e.g. .NET 6, GraphQL, Angular, OAuth, REST APIs, Open API (Swagger), jQuery, Bootstrap, NPM, Entity Framework, EF Core, Visual Studio 2022 etc.",
-      "highlights": []
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/14911",
+      "location": "Mumbai, Maharashtra, India"
     },
     {
-      "company": "Bharat Petroleum Corp. Ltd.",
-      "position": "Assistant Manager",
-      "website": "https://www.bharatpetroleum.com/",
-      "startDate": "2017-04-01",
-      "endDate": "",
-      "summary": "Developing mission critical and internal web applications/APIs using Microsoft and Open-Source stack. e.g. ASP.NET MVC, .NET Core, Angular, OAuth, REST APIs, Swagger, jQuery, Bootstrap, NPM, Entity Framework, Visual Studio 2017/13/12 etc. Just started with Machine Learning. Personal focus on writing secure code with industry standard best practices and Unit Tests. Technology Enthusiast. Managing third party developers. From interaction with Business Analysts to understand requirements to Design, Code and Unit Test.",
-      "highlights": []
+      "name": "Bharat Petroleum Corporation Limited",
+      "position": "Manager - Software Development Engineering",
+      "startDate": "2021-03-31",
+      "endDate": "2023-05-31",
+      "highlights": [],
+      "summary": "• Lead and Implemented Telecom Commercial Communications Customer Preference Regulations (TCCCPR) by Telecom Regulatory Authority of India - Government of India in BPCL.\n• Developing mission critical and internal REST APIs, Web Applications, Command Line Interfaces, and Libraries using Microsoft and Open-Source technologies e.g., .NET 6, .NET Core, Angular, Node.js, GraphQL, OpenID Connect, OAuth, ASP.NET MVC, OpenAPI (Swagger), NPM, Entity Framework Core etc.\n• Uncrowned Chief Application Code Security Officer for Microsoft and Open-Source stack.\n• Responsible for gathering requirements from Business Analysts, Solution Architecture, High Level Design, Low Level Design, Coding, Writing Unit Tests, Documentation, Database Design, Database Development, Code Security Review, and Complete SDLC.\n• Empowering a team of 3 developers.",
+      "url": "https://www.linkedin.com/company/14911",
+      "location": "Mumbai, Maharashtra, India"
     },
     {
-      "company": "Bharat Petroleum Corp. Ltd.",
-      "position": "Executive",
-      "website": "https://www.bharatpetroleum.com/",
-      "startDate": "2015-04-01",
+      "name": "Bharat Petroleum Corporation Limited",
+      "position": "Assistant Manager - Software Development Engineering",
+      "startDate": "2017-04-30",
+      "endDate": "2021-03-31",
+      "highlights": [],
+      "summary": "• Enterprise Unified SMS Platform – SMS Pro\nArchitected, Designed, and Developed BPCL's one of the most mission critical system - Enterprise Unified SMS Platform – SMS Pro which is a suite of OAuth based REST APIs, Distributed Processing Queues, Webhooks, Command Line Interfaces, Libraries, Client Application on-boarding Portal, Analytical Dashboards, and Reports for ingesting SMS requests from all BPCL applications, integration with SMS aggregators for sending OTPs, Transactional, and Service SMS to BPCL Employees, Partners, Customers, getting real-time Delivery Webhooks, receiving Mobile Originated SMS and more.\n\nTechnologies Used: OAuth 2, Open API (Swagger), MSMQ, C#, ASP.NET MVC, Node.js, Hangfire, Bootstrap, Entity Framework.\n\n• REST API Authorization as a Service\nEnvisioned, Architected, Designed, and Developed REST API Authorization as a Service Platform for all BPCL REST APIs to standardize OAuth based Authorization across teams. Offering includes:\n1. API and Client on-boarding Portal\n2. OAuth Authorization Server for minting JWT access Tokens.\n3. API Template for Visual Studio for developing standard, secure REST Microservices and APIs.\n\nTechnologies used:\nAngular, OpenID Connect, Azure AD, OAuth, JSON Web Token (JWT), ASP.NET Core, C#, TypeScript, NPM, Entity Framework Core, SQL Server.\n\n• Won Digital PSU Award for envisioning, architecting, and developing in-house Machine Learning model for Organization's ITSM to save hundreds of Man-hours of Support Desk Engineers.",
+      "url": "https://www.linkedin.com/company/14911",
+      "location": "Mumbai"
+    },
+    {
+      "name": "Bharat Petroleum Corporation Limited",
+      "position": "Executive - Software Development Engineering",
+      "startDate": "2015-04-30",
       "endDate": "2017-03-31",
-      "summary": "Developed Web Applications using ASP.NET MVC 5, jQuery, Razor, Bootstrap, JavaScript, HTML5, CSS3 as front-end and Microsoft SQL Server 2012 with Entity Framework as back-end. Integration with Active Directory APIs, Exchange APIs, SSH, SAP PI.",
-      "highlights": []
+      "highlights": [],
+      "summary": "• BPCL IT Services System – BITSS\nArchitected, Designed, and Developed BPCL IT Services System aka BITSS - an Award winning, Machine Learning Powered, comprehensive, in-house ITSM system which caters to all BPCL Employees and Consultants. From Ticketing System to paperless initiatives, Chat Bot, B2B Integration, Automation, Network Monitoring.\n\nDeveloped using C#, ASP.NET Web-Forms, MVC, JavaScript, SQL Server, Entity Framework, jQuery, SignalR, Microsoft Bot Framework, QnA Maker, Bootstrap, Active Directory APIs, Exchange APIs, SSH etc.",
+      "url": "https://www.linkedin.com/company/14911",
+      "location": "Mumbai"
     },
     {
-      "company": "Bharat Petroleum Corp. Ltd.",
-      "position": "Management Trainee",
-      "website": "https://www.bharatpetroleum.com/",
-      "startDate": "2014-05-09",
+      "name": "Bharat Petroleum Corporation Limited",
+      "position": "Management Trainee - Software Development Engineering",
+      "startDate": "2014-06-30",
       "endDate": "2015-03-31",
-      "summary": "Developed Web Applications using ASP.NET Web Forms, MVC 5, jQuery, Razor, Bootstrap, JavaScript, HTML5, CSS3 as front-end and Microsoft SQL Server 2012 with Entity Framework as back-end. Tried my hands on various state of the art technologies like SignalR etc.",
-      "highlights": []
+      "highlights": [],
+      "summary": "• Retail Outlet (Petrol Pump) on-boarding System\nDeveloped critical features in Retail Outlet On-boarding System used by Sales Officers, Territory Manager, State and Regional Heads, and Directors for on-boarding and Investment approvals of new Retail Outlets pan India.",
+      "url": "https://www.linkedin.com/company/14911",
+      "location": "Mumbai Area, India"
     }
   ],
   "volunteer": [
     {
-      "organization": "Project Boond",
+      "organization": "Bharat Petroleum Corporation Limited",
       "position": "Volunteer",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": []
+      "startDate": "2015-02-28",
+      "endDate": "2015-02-28",
+      "summary": "We volunteered for Project 'Boond' on behalf of Bharat Petroleum Corp. Ltd.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/14911"
     }
   ],
   "education": [
     {
       "institution": "Maulana Azad National Institute of Technology",
-      "area": "Computer Science and Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2010-07-01",
-      "endDate": "2014-05-31",
-      "gpa": "7.8",
-      "courses": []
+      "area": "Computer Science",
+      "studyType": "Bachelor of Technology (B.Tech.)",
+      "startDate": "2010-12-31",
+      "endDate": "2014-12-31",
+      "score": "",
+      "courses": [
+        "null - Android Application Development"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Digital PSU for developing on-premise Machine Learning models for solving IT issues.",
-      "date": "2019-02-19",
-      "awarder": "Microsoft",
-      "summary": "- Award"
+      "title": "Digital PSU",
+      "date": "2022-09-30",
+      "awarder": "Economic Times",
+      "summary": ""
     },
     {
-      "title": "Microsoft Certified Professional",
-      "date": "2017-02-18",
-      "awarder": "Microsoft",
-      "summary": "- Certification"
+      "title": "Environmental Sustainability (Green Initiatives)",
+      "date": "2022-09-30",
+      "awarder": "Economic Times",
+      "summary": ""
     },
     {
-      "title": "Microsoft Expert - Programming in C#",
-      "date": "2017-02-18",
-      "awarder": "Microsoft",
-      "summary": "- Certification"
+      "title": "Digital PSU Award for In-house developed On-premise Machine Learning Model for ITSM",
+      "date": "2020-02-28",
+      "awarder": "Governance Now",
+      "summary": "Digital PSU Award at 7th PSU Awards by Hon’ble Minister Shri Arjun Ram Meghwal for developing on-premise Machine Learning models for faster resolution of IT Issues."
     },
     {
-      "title": "Chief Minister's Excellence Award",
-      "date": "2010-06-08",
-      "awarder": "Govt. of Madhya Pradesh",
-      "summary": "- Award"
+      "title": "Chief Minister’s Excellence Award",
+      "date": "2010-06-30",
+      "awarder": "Chef Minister of Madhya Pradesh",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified Professional",
+      "issuer": "Microsoft"
     },
     {
-      "title": "Data Science: R Basics",
-      "date": "2018-08",
-      "awarder": "Harvard University",
-      "summary": "- MOOC + Certification"
+      "name": "Microsoft Specialist (C#) ",
+      "issuer": "Microsoft"
     },
     {
-      "title": "ASP.NET Core 2.0",
-      "date": "2018-06",
-      "awarder": "Udemy",
-      "summary": "- MOOC + Certification"
+      "name": "Data Science: R Basics",
+      "issuer": "HarvardX - An Online Learning Initiative by Harvard University through edX",
+      "startDate": "2018-08-31"
     },
     {
-      "title": "Angular 6 - Mastering the Basics",
-      "date": "2018-06",
-      "awarder": "Udemy",
-      "summary": "- MOOC + Certification"
+      "name": "TypeScript Design Patterns",
+      "issuer": "Udemy",
+      "startDate": "2018-04-30"
     },
     {
-      "title": "Essentials in JavaScript ES6",
-      "date": "2018-04",
-      "awarder": "Udemy",
-      "summary": "- MOOC + Certification"
+      "name": "TypeScript",
+      "issuer": "Udemy",
+      "startDate": "2018-04-30"
     },
     {
-      "title": "TypeScript",
-      "date": "2018-04",
-      "awarder": "Udemy",
-      "summary": "- MOOC + Certification"
+      "name": "Essentials in JavaScript ES6",
+      "issuer": "Udemy",
+      "startDate": "2018-04-30"
+    },
+    {
+      "name": "Angular 6 - Mastering the Basics",
+      "issuer": "Udemy",
+      "startDate": "2018-06-30"
+    },
+    {
+      "name": "Xamarin ",
+      "issuer": "Microsoft",
+      "startDate": "2017-06-30"
+    },
+    {
+      "name": "ASP.NET Core 2.0",
+      "issuer": "Udemy",
+      "startDate": "2018-06-30"
+    },
+    {
+      "name": "Containers and Orchestration",
+      "issuer": "Udemy",
+      "startDate": "2019-05-31"
     }
   ],
   "publications": [],
   "skills": [
     {
-      "name": "Back-end",
+      "name": "GraphQL",
       "level": "",
-      "keywords": [
-        "C#",
-        ".NET Core",
-        "ASP.NET MVC",
-        "Web-API",
-        "REST",
-        "NodeJs"
-      ]
+      "keywords": []
     },
     {
-      "name": "Front-end",
+      "name": "C#",
       "level": "",
-      "keywords": [
-        "Angular",
-        "TypeScript",
-        "JavaScript (ES6)",
-        "Bootstrap",
-        "jQuery"
-      ]
+      "keywords": []
     },
     {
-      "name": "Cloud",
+      "name": "ASP.NET MVC",
       "level": "",
-      "keywords": [
-        "Azure"
-      ]
+      "keywords": []
     },
     {
-      "name": "Databases",
+      "name": "JavaScript",
       "level": "",
-      "keywords": [
-        "SQL Server"
-      ]
+      "keywords": []
     },
     {
-      "name": "IDEs, Editors",
+      "name": "Bharat Petroleum Corporation Limited",
       "level": "",
-      "keywords": [
-        "Visual Studio 2019/17/13/12",
-        "Visual Studio Code"
-      ]
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET Core",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Team Foundation Server (TFS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OData",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Enterprise Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Visual Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Personal Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST API",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".NET Core",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Accountability",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Team Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OAuth",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Written Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Android Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Go (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Decision-Making",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Strategy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AJAX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Language Integrated Query (LINQ)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Azure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Entity Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Time Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Angular",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".NET",
+      "level": "",
+      "keywords": []
     },
     {
       "name": "Machine Learning",
       "level": "",
-      "keywords": [
-        "Classification",
-        "Natural Language Processing",
-        "R",
-        "ML.NET",
-        "Anomaly Detection"
-      ]
+      "keywords": []
     },
     {
-      "name": "Unit Testing",
+      "name": "DevOps",
       "level": "",
-      "keywords": [
-        "MS Tests"
-      ]
+      "keywords": []
     },
     {
-      "name": "Security",
+      "name": "Conflict Management",
       "level": "",
-      "keywords": [
-        "OAuth",
-        "JWT",
-        "HP Fortify"
-      ]
+      "keywords": []
     },
     {
-      "name": "Documentation",
+      "name": "Microsoft SQL Server",
       "level": "",
-      "keywords": [
-        "Markdown"
-      ]
+      "keywords": []
     },
     {
-      "name": "Queues",
+      "name": "Strategic Thinking",
       "level": "",
-      "keywords": [
-        "MSMQ",
-        "Hangfire"
-      ]
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design Patterns",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Fluent"
+      "fluency": "Native Speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "When not in front of a Computer, I like to ride my Bike",
-      "keywords": [
-        "Bike Riding"
-      ]
-    },
-    {
-      "name": "Chances are you'll see me with my Headphones on",
-      "keywords": [
-        "Music"
-      ]
-    }
-  ],
+  "interests": [],
   "references": [
     {
-      "name": "Prashant Sharma (on LinkedIn)",
-      "reference": "It is my pleasure to recommend Satish. He is passionate about writing code and solving clients’ problems through the development of creative and innovative software. He has tremendous potential. Satish is vocal about his software ideas, but respects his superiors and enthusiastically tackles every assignment as he is directed. He is friendly, easy to get along with, well-liked by our clients and respected by his co-workers. Forever the student, Satish takes courses frequently to stay up-to-date on the latest techniques in software development. He is able to thoroughly focus on every project and is not easily distracted. He comprehends instructions quickly and is flexible when changes have to be made in the original plan. Satish is a skillful communicator both written and verbal and works extremely well with our clients, some of whom request him specifically to handle their jobs. Satish is dedicated to providing quality work. He checks and rechecks his software before turning it in for presentation to the client. He strives to make his programs as user friendly as possible understanding that not everyone is an expert programmer. He is detail oriented and rarely has any bugs in his finished product. His energy is limitless and his enthusiasm serves to motivate everyone on his team. I am sure he will succeed wherever he goes."
+      "name": "Prashant Sharma",
+      "reference": "It is my pleasure to recommend Satish. He is passionate about writing code and solving clients’ problems through the development of creative and innovative software. He has tremendous potential. Satish is vocal about his software ideas, but respects his superiors and enthusiastically tackles every assignment as he is directed. He is friendly, easy to get along with, well-liked by our clients and respected by his co-workers.\nForever the student, Satish takes courses frequently to stay up-to-date on the latest techniques in software development. He is able to thoroughly focus on every project and is not easily distracted. He comprehends instructions quickly and is flexible when changes have to be made in the original plan. Satish is a skillful communicator both written and verbal and works extremely well with our clients, some of whom request him specifically to handle their jobs.\nSatish is dedicated to providing quality work. He checks and rechecks his software before turning it in for presentation to the client. He strives to make his programs as user friendly as possible understanding that not everyone is an expert programmer. He is detail oriented and rarely has any bugs in his finished product. His energy is limitless and his enthusiasm serves to motivate everyone on his team. I am sure he will succeed wherever he goes."
     },
     {
-      "name": "Pradeep Atkari (on LinkedIn)",
-      "reference": "Satish is a proactive and tireless contributor who would make a great addition to any team. As working with BPCL I met to Satish as part of BITS project team. Satish impressed all of us (whole team of BITS and other colleges) by transforming the logics and full use of technology ensuing awkward silence into a lively icebreaker discussion among the team, and he even initiated a usages of technology, Best practices and design patter for the BITS project which is using by BPCL organization all over the india. Throughout the time when I have been there in project , Satish completed his assignments/task on time and never failed to add a creative touch when appropriate. I would highly recommend his for any position, as he naturally rises to the occasion when presented with something he is passionate about."
+      "name": "Pradeep Atkari ",
+      "reference": "Satish is a proactive and tireless contributor who would make a great addition to any team. As working with BPCL I met to Satish as part of BITS project team. Satish impressed all of us (whole team of BITS and other colleges) by transforming the logics and full use of technology ensuing awkward silence into a lively icebreaker discussion among the team, and he even initiated a usages of technology, Best practices and design patter  for the BITS project which is using by BPCL organization all over the india. Throughout the time when I have been there in project , Satish completed his assignments/task on time and never failed to add a creative touch when appropriate. I would highly recommend his for any position, as he naturally rises to the occasion when presented with something he is passionate about."
     }
-  ]
+  ],
+  "projects": [
+    {
+      "name": "GraphQL API for internal Webhook Micro-service",
+      "startDate": "2022-04-30",
+      "summary": "Created GraphQL APIs for a mission critical internal web-hook micro-service using .NET 6, HotChocolate, and OAuth. ",
+      "url": null,
+      "endDate": "2022-04-30"
+    },
+    {
+      "name": "E-Measurement Book",
+      "startDate": "2021-06-30",
+      "summary": "Architected and Developed the Paperless E-Measurement Book  — Digital and Paperless Measurement Book Product. A Measurement Book is the most important document in Engineering and Construction in which the measurements of services provided by Vendors are recorded. ",
+      "url": null,
+      "endDate": "2021-06-30"
+    },
+    {
+      "name": "Retention Money and Bank Guarantee Release System",
+      "startDate": "2021-02-28",
+      "summary": "Single Page App (SPA) Front-end using Angular, TypeScript, and Reactive Forms. SAP Gateway OData and .NET 5, ASP.NET Core 5 REST APIs Back-end. ",
+      "url": null,
+      "endDate": "2021-04-30"
+    },
+    {
+      "name": "Magic Link",
+      "startDate": "2020-02-28",
+      "summary": "A Slack inspired extensible Magic Link system using Angular, ASP.NET Core 3.1, and JWT",
+      "url": null,
+      "endDate": "2020-05-31"
+    },
+    {
+      "name": "REST API OAuth Authorisation Server and API On-boarding Developer Portal",
+      "startDate": "2019-04-30",
+      "summary": "An OAuth and JWT based REST API Authorisation Server for securing all REST APIs. And a developer portal for on-boarding  APIs. \n\nDeveloped using ASP.NET Core, Angular, OAuth, JWT.",
+      "url": null,
+      "endDate": "2020-05-31"
+    },
+    {
+      "name": "Shawt - Free Link Shortner",
+      "startDate": "2019-12-31",
+      "summary": "A free Link Shortner to create static and dynamic Short Links with Analytics on user clicks twith REST APIs to integrate with other Systems.\n\nDeveloped using ASP.NET Core, Angular, OAuth, JWT.",
+      "url": "https://Shawt.IO",
+      "endDate": "2020-02-28"
+    },
+    {
+      "name": "OnlyOTP",
+      "startDate": "2019-02-28",
+      "summary": "A general purpose, OTP generation, storage, and validation library for .NET. Written in C# and .NET Standard 2.0.",
+      "url": "https://onlyotp.github.io/OnlyOTP/",
+      "endDate": "2019-03-31"
+    },
+    {
+      "name": "SMS Pro",
+      "startDate": "2018-01-31",
+      "summary": "SMS Pro is a complete Enterprise SMS solution with OAuth2 based REST APIs, Webhooks, application on-boarding Portal, SMS Delivery reports.\n\nDeveloped using ASP.NET Web-API, OAuth2, WebHooks, MSMQ, and Hangfire.",
+      "url": "https://ebiz.bpc.co.in/SMS",
+      "endDate": "2018-07-31"
+    },
+    {
+      "name": "BPCL IT Services System",
+      "startDate": "2015-03-31",
+      "summary": "BPCL IT Services System aka BITSS is an Award winning Machine Learning Powered, comprehensive, in-house ITSM system which caters to all BPCL Employees. From Ticketing System to paperless initiatives, Chat Bot, B2B Integration, Automation, Network Monitoring, BITSS has it all. \n\nDeveloped using ASP.NET MVC 5, ML.NET, Bootstrap 3, jQuery, SignalR, Entity Framework 6.",
+      "url": null,
+      "endDate": "2016-02-28"
+    },
+    {
+      "name": "Developed a tool for Forensic Analysis of Windows 7 Registry",
+      "startDate": "2013-09-30",
+      "summary": null,
+      "url": null,
+      "endDate": "2013-12-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }
