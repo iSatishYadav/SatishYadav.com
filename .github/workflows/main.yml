@@ -24,15 +24,15 @@ jobs:
           theme: dark-classy-responsive
           resume_filepath: resume.json
           # modifies the index.html in-place
-          output_filepath: docs/index.html
+          output_filepath: index.html
       - name: Commit published HTML
         id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain docs/index.html)" ]; then
+          if [ -n "$(git status --porcelain index.html)" ]; then
             git add docs/index.html
-            git commit -m "[ci skip] chore(docs/index.html): update resume page"
+            git commit -m "[ci skip] chore(index.html): update resume page"
             echo name=exit_code::0 >> $GITHUB_OUTPUT
           else
             echo name=exit_code::1 >> $GITHUB_OUTPUT
