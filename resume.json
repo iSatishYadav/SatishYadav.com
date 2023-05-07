@@ -5,7 +5,7 @@
     "picture": "https://graph.facebook.com/100001257543526/picture?type=large",
     "email": "hello@satishyadav.com",
     "website": "https://satishyadav.com",
-    "summary": "Senior Full Stack Developer working mostly on Microsoft and Open-source technologies. From interacting with Business Analysts to Designing, Coding, writing Unit Tests, Security, Code Review, involved in complete Enterprise SDLC.",
+    "summary": "Manager - Software Development Engineering and Full Stack Developer working mostly on Microsoft and Open-source technologies. From interacting with Business Analysts to Designing, Coding, writing Unit Tests, Security, Code Review, involved in complete Enterprise SDLC.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -42,6 +42,24 @@
     ]
   },
   "work": [
+  {
+      "company": "Bharat Petroleum Corp. Ltd.",
+      "position": "SAP Development Manager",
+      "website": "https://www.bharatpetroleum.com/",
+      "startDate": "2023-05-01",
+      "endDate": "",
+      "summary": "Managing SAP Development",
+      "highlights": []
+    },
+   {
+      "company": "Bharat Petroleum Corp. Ltd.",
+      "position": "Manager",
+      "website": "https://www.bharatpetroleum.com/",
+      "startDate": "2021-04-01",
+      "endDate": "",
+      "summary": "Developing mission critical and internal web applications/APIs using Microsoft and Open-Source stack. e.g. .NET 6, GraphQL, Angular, OAuth, REST APIs, Open API (Swagger), jQuery, Bootstrap, NPM, Entity Framework, EF Core, Visual Studio 2022 etc.",
+      "highlights": []
+    },
     {
       "company": "Bharat Petroleum Corp. Ltd.",
       "position": "Assistant Manager",
