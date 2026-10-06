@@ -1,0 +1,6 @@
+Universal Animation Library Standard
+Models and animations by Quaternius. CC0 1.0 Universal / Public Domain Dedication.
+Source: https://opengameart.org/content/universal-animation-library
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: materials, rendering, scene composition, animation selection, normalization.
+Three.js is MIT licensed; see ../vendor/THREE-LICENSE.txt.

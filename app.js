@@ -3,7 +3,7 @@
 const projectDetails = {
   bitss: {
     category: 'ENTERPRISE / MACHINE LEARNING', title: 'BPCL IT Services System',
-    intro: 'A comprehensive in-house IT services platform serving BPCL employees and consultants.',
+    intro: 'Machine-learning-powered IT support since 2018, built in-house for BPCL employees and consultants—years before today’s AI boom.',
     sections: [
       ['THE PROBLEM', 'Support is more than ticketing. People need a connected way to get help, follow requests, and reduce repetitive operational work.'],
       ['MY CONTRIBUTION', 'Architected, designed, and developed BITSS, bringing together service requests, automation, paperless workflows, chatbot capabilities, integrations, and network monitoring. Developed an in-house machine-learning model for the organization’s ITSM.'],
@@ -170,3 +170,13 @@ fetch('articles.json').then(response => {
   archiveStatus.textContent = 'The writing index could not load. The featured links and full blog remain available.';
 });
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+const motionToggle = document.querySelector('.motion-toggle');
+motionToggle.addEventListener('click', () => {
+  const paused = document.body.classList.toggle('motion-paused');
+  motionToggle.setAttribute('aria-pressed', String(paused));
+  const label = paused ? 'Resume animations' : 'Pause animations';
+  motionToggle.setAttribute('aria-label', label);
+  motionToggle.title = label;
+  motionToggle.querySelector('span').textContent = paused ? '▶' : 'Ⅱ';
+});

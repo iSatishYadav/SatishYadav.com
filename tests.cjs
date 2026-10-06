@@ -56,7 +56,9 @@ test('branding, recognition counts, and every career stage are present', () => {
   assert.ok(html.includes('Beyond the job titles'));
   assert.match(html, /<details class="milestone-archive" open>/);
   assert.ok(!html.includes('Based on my published professional profile'));
-  assert.ok(html.includes('class="bitss-network"'));
+  assert.ok(html.includes('class="bitss-neurons"'));
+  assert.ok(html.includes('APPLIED MACHINE LEARNING / EST. 2018'));
+  assert.ok(html.includes('AI before the hype.'));
 });
 
 test('social sharing metadata uses production URLs and a real JPEG image', () => {
@@ -68,6 +70,29 @@ test('social sharing metadata uses production URLs and a real JPEG image', () =>
   assert.ok(html.includes('content="https://satishyadav.com/og-image.jpg"'));
   const image = fs.readFileSync(path.join(directory, 'og-image.jpg'));
   assert.equal(image.readUInt16BE(0), 0xffd8);
+});
+
+test('personal section links to Punskaari on YouTube and X', () => {
+  const section = html.match(/<section class="section-shell human-section"[\s\S]*?<\/section>/)[0];
+  assert.ok(section.includes('href="https://www.youtube.com/@punskaari"'));
+  assert.ok(section.includes('href="https://x.com/punskaari"'));
+});
+
+test('local AI and Agile Gamer have distinct sections', () => {
+  assert.ok(html.includes('id="exploring" aria-labelledby="exploring-title"'));
+  assert.ok(html.includes('currently exploring local AI and agents'));
+  const gaming = html.match(/<section class="section-shell gaming-section"[\s\S]*?<\/section>/)[0];
+  assert.ok(gaming.includes('href="https://www.youtube.com/@agilegamer"'));
+  assert.ok(gaming.includes('Agile Gamer'));
+  assert.ok(gaming.includes('class="gaming-scene"'));
+  assert.ok(gaming.includes('class="fighter fighter-one"'));
+  assert.ok(gaming.includes('AGILE GAMER'));
+  assert.ok(!gaming.includes('65” SCREEN'));
+  assert.ok(!gaming.includes('65-inch'));
+  const styles = fs.readFileSync(path.join(directory, 'styles.css'), 'utf8');
+  assert.ok(styles.includes('@keyframes fighter-spar'));
+  assert.ok(styles.includes('prefers-reduced-motion:reduce'));
+  assert.ok(html.includes('class="motion-toggle"'));
 });
 
 test('external new-tab links have safe relationship attributes', () => {

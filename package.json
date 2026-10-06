@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Static editorial portfolio. Serve the repository root with the globally installed http-server CLI. Source exports are gitignored, but must not be included in public deployments.",
+  "dependencies": {
+    "three": "0.180.0"
+  },
   "scripts": {
     "start": "http-server . -p 3000 -c-1",
     "test": "node --test tests.cjs"
