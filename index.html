@@ -1,667 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Satish Yadav</title>
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans" />
-		<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/FortAwesome/Font-Awesome/307323a6a7fe69b7018cb49d2b7e43e1f4b6c92b/css/font-awesome.min.css" />
-		<style type="text/css">
-/*<!--*/
-body {
-	font-size: 62.5%;
-	font-family: "Montserrat", sans-serif;
-	background-color: #171717;
-	color: #eeeeee;
-}
-.main-wrap {
-	max-width: 960px;
-	margin: 0 auto;
-}
-a {
-	color: #aaaaaa;
-	text-decoration: none;
-	-webkit-transition: color 0.175s ease 0.05s;
-	   -moz-transition: color 0.175s ease 0.05s;
-	        transition: color 0.175s ease 0.05s;
-}
-a:visited {
-	color: #aaaaaa;
-}
-a:hover,
-a:focus {
-	color: #777777;
-	text-decoration: none;
-}
-.header {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 10%;
-}
-.section {
-	padding: 1em 1em 0 1em;
-	margin-bottom: 1em;
-}
-.section .fa.left {
-	margin-right: 0.25em;
-}
-h1 {
-	color: #eeeeee;
-	font-size: 2em;
-	margin: 1em 0 0;
-	text-transform: uppercase;
-}
-h2 {
-	font-size: 3.5em;
-	margin: 0.83em 0;
-	text-transform: uppercase;
-}
-h3 {
-	color: #aaaaaa;
-	font-size: 1.75em;
-	margin: 1em 0 0;
-}
-h4 {
-	color: #666666;
-	font-size: 1.25em;
-	margin: 0 0 1em;
-}
-.profile {
-	font-family: "Montserrat";
-	font-size: 1em;
-	margin: 0;
-}
-.profile-name {
-	display: none;
-}
-.contact-header {
-	font-weight: bold;
-}
-.contact-list li,
-.contact-list a {
-	color: #eeeeee;
-}
-.label {
-	margin-top: 0;
-	margin-bottom: 0.25em;
-}
-.fa {
-	font-size: 2em;
-}
-.left {
-	font-size: 1em;
-}
-.main {
-	margin: 0 10% 5em;
-}
-.skills {
-	margin-bottom: 0.5em;
-}
-p {
-	color: #aaaaaa;
-	font-family: "Open Sans";
-	font-size: 1.5em;
-}
-li {
-	color: #aaaaaa;
-	font-family: "Open Sans";
-	font-size: 1.5em;
-}
-.list-lines,
-.list-lines li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.list-lines li {
-	font-family: "Montserrat";
-	font-size: 1em;
-}
-.list-set,
-.list-set li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.list-set li {
-	font-family: "Montserrat";
-	display: inline-block;
-}
-.list-set li a {
-	display: inline-block;
-}
-.list-set li .fa {
-	min-width: 1em;
-	min-height: 1em;
-}
-/*Minor adjustment to icons.*/
-.list-set li .fa-stack-overflow:before {
-	font-size: 0.9em;
-	position: relative;
-	top: -0.05em;
-}
-.list-set.keywords {
-	overflow: hidden;
-}
-.list-set.keywords li {
-	background-color: #444444;
-	color: #eeeeee;
-	padding: 0.4em 0.5em;
-	font-size: 1.2em;
-	display: inline-block;
-	margin: 1px;
-	float: left;
-}
-.profiles-list {
-	margin-top: 0.75em;
-}
-blockquote {
-	margin: 2em 1em;
-	padding: 1em;
-	border-left: 0.75em solid #666666;
-	font-family: "Open Sans";
-	font-size: 1.5em;
-}
-blockquote .name {
-	font-weight: bold;
-	font-family: "Montserrat";
-	margin-top: 1em;
-}
-::-moz-selection {
-	background: #666666;
-}
-::selection {
-	background: #666666;
-}
-@media (max-width: 768px) {
-	body {
-		font-size: 50%;
-	}
-	.header {
-		margin: 0 5%;
-	}
-	.main {
-		margin: 0 5%;
-	}
-}
-@media print {
-	body {
-		background: #FFFFFF;
-		color: #171717;
-	}
-	.main-wrap {
-		width: 100%;
-	}
-	.main {
-		margin: 0 0 1em 0;
-	}
-	.section {
-		page-break-inside: avoid;
-	}
-	.main .section:last-child {
-		margin-bottom: 0;
-	}
-	a {
-		color: #555555;
-	}
-	a:visited {
-		color: #555555;
-	}
-	a:hover,
-	a:focus {
-		color: #555555;
-	}
-	h1 {
-		color: #111111;
-		margin-top: 0.5em;
-	}
-	h2 {
-		margin: 0.25em 0;
-	}
-	h3 {
-		color: #555555;
-	}
-	h4 {
-		color: #bbbbbb;
-	}
-	.contact-list li,
-	.contact-list a {
-		color: #111111;
-	}
-	p {
-		color: #555555;
-	}
-	li {
-		color: #555555;
-	}
-	.list-set.keywords li {
-		background-color: transparent;
-		color: #555555;
-		border: 1px solid #aaaaaa;
-	}
-	blockquote {
-		border-color: #999999;
-	}
-	* {
-		/*Avoid printing the color at the start of the transition (Chrome issue).*/
-		-webkit-transition: none !important;
-		   -moz-transition: none !important;
-		        transition: none !important;
-
-	}
-}
-/*-->*/
-		</style>
-		<!--[if lt IE 9]>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<div class="main-wrap">
-			<header class="header">
-				<h1>Satish Yadav</h1>
-				<h3 class="label">.NET Foundation Member • Microsoft, AWS, Scrum, Git, GraphQL Certified • Full Stack Developer • Open Source Contributor • Content Creator</h3>
-				<ul id="contact" class="contact-list list-lines">
-					<li class="contact-header"><a href="mailto:hello@satishyadav.com">hello@satishyadav.com</a></li>
-					<li class="contact-header"><a href="https:&#x2F;&#x2F;read.satishyadav.com">https:&#x2F;&#x2F;read.satishyadav.com</a></li>
-				</ul>
-				<ul id="profiles" class="profiles-list list-set">
-					<li><a href="https:&#x2F;&#x2F;shawt.io&#x2F;r&#x2F;sVX" class="profile" title="LinkedIn"><i class="fa fa-linkedin"></i><span class="profile-name">LinkedIn</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;shawt.io&#x2F;r&#x2F;sVV" class="profile" title="Github"><i class="fa fa-github"></i><span class="profile-name">Github</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;shawt.io&#x2F;r&#x2F;sVS" class="profile" title="Twitter"><i class="fa fa-twitter"></i><span class="profile-name">Twitter</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;shawt.io&#x2F;r&#x2F;sVT" class="profile" title="Facebook"><i class="fa fa-facebook"></i><span class="profile-name">Facebook</span></a></li>
-					<li><a href="https:&#x2F;&#x2F;shawt.io&#x2F;r&#x2F;sVW" class="profile" title="Instagram"><i class="fa fa-instagram"></i><span class="profile-name">Instagram</span></a></li>
-				</ul>
-			</header>
-			<main role="main" class="main">
-				<section id="about" class="section">
-					<h2><i class="fa fa-user left"></i>About</h2>
-					<p>• ~11 years of demonstrated hands-on polyglot experience in Enterprise Software Development Engineering.
-• Member of .NET Foundation
-• World Rank #1 — Veracode Security Code Challenge
-• Won Digital PSU Award for in-house development of Machine Learning model for Organization&#39;s ITSM.
-• AWS, Microsoft, Scrum, Git, and GraphQL Certified.
-• Featured in Microsoft thank you page for OpenSource contribution to Microsoft .NET 6 core runtime repo. 
-• Develops Mission Critical REST APIs, Web Applications, Webhooks, Command Line Interfaces, and Libraries.
-• Solution Architecture, High Level Design, Low Level Design, Coding, Writing Unit Tests, Documentation, UI, API, and Database Design &amp; Development, Code Security Review, and Complete SDLC.
-• Uncrowned Chief Application Code Security Officer for Microsoft and Open-Source technologies.
-• Empowers a team of 3 external developers and mentors fellow and junior Developers.
-• Blogger, Vlogger, YouTuber, and Content Creator. 
-
-Skills:
-
-• C#, Node.js, Angular, JavaScript — ES6+, TypeScript, T&#x2F;SQL
-• ML.NET, Machine Learning
-• .NET 7, .NET Core, .NET Framework, ASP.NET MVC, Entity Framework, EF Core
-• HTML, CSS, Bootstrap, jQuery
-• Visual Studio, VS Code, Git, TFVC, Azure DevOps, Team Foundation Server, GitHub
-• GraphQL, REST APIs, gRPC, OpenAPI (FKA Swagger), JSON
-• OWASP, MicroFocus Fortify (FKA HP Fortify), Unit Testing, MSTest, Moq, Jasmine, Karma
-• SQL Server, MSMQ, Hangfire
-• Azure, AWS, Docker
-• Clean Code, TDD, CQRS, MediatR
-• RPA – Microsoft Power Automate, Selenium IDE</p>
-				</section>
-				<section id="work" class="section">
-					<h2><i class="fa fa-suitcase left"></i>Work Experience</h2>
-					<section class="section-sub section-sub-job">
-						<h3>SAP Development Manager, Bharat Petroleum Corporation Limited</h3>
-						<h4>May 2023 - Present</h4>
-						<p></p>
-					</section>
-					<section class="section-sub section-sub-job">
-						<h3>Manager - Software Development Engineering, Bharat Petroleum Corporation Limited</h3>
-						<h4>March 2021 - May 2023</h4>
-						<p></p>
-					</section>
-					<section class="section-sub section-sub-job">
-						<h3>Assistant Manager - Software Development Engineering, Bharat Petroleum Corporation Limited</h3>
-						<h4>April 2017 - March 2021</h4>
-						<p></p>
-					</section>
-					<section class="section-sub section-sub-job">
-						<h3>Executive - Software Development Engineering, Bharat Petroleum Corporation Limited</h3>
-						<h4>April 2015 - March 2017</h4>
-						<p></p>
-					</section>
-					<section class="section-sub section-sub-job">
-						<h3>Management Trainee - Software Development Engineering, Bharat Petroleum Corporation Limited</h3>
-						<h4>June 2014 - March 2015</h4>
-						<p></p>
-					</section>
-				</section>
-				<section id="education" class="section">
-					<h2><i class="fa fa-graduation-cap left"></i>Education</h2>
-					<section class="section-sub section-sub-education">
-						<h3>Bachelor of Technology (B.Tech.) - Maulana Azad National Institute of Technology</h3>
-						<h4>December 2010 - December 2014</h4>
-						<p>Computer Science</p>
-					</section>
-				</section>
-				<section id="skills" class="section">
-					<h2><i class="fa fa-tasks left"></i>Skills</h2>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">GraphQL</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">C#</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">ASP.NET MVC</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">JavaScript</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Bharat Petroleum Corporation Limited</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Kubernetes</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Node.js</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">HTML5</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">ASP.NET Core</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Team Foundation Server (TFS)</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">OData</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Microservices</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Enterprise Architecture</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">ASP.NET</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Visual Studio</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Amazon Web Services (AWS)</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Personal Development</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">REST API</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">.NET Core</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">SQL</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Cloud Computing</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Accountability</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Android</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Team Leadership</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Bootstrap</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">JSON</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">OAuth</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Written Communication</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Java</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Android Development</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Git</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Go (Programming Language)</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Decision-Making</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Strategy</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Web Applications</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">AJAX</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Language Integrated Query (LINQ)</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Communication</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Microsoft Azure</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Entity Framework</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">HTML</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Time Management</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Angular</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">.NET</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Machine Learning</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">DevOps</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Conflict Management</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Microsoft SQL Server</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Strategic Thinking</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">CSS</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-					<section class="section-sub section-sub-skill">
-						<h3 class="skills">Design Patterns</h3>
-						<ul class="list-set keywords">
-						</ul>
-					</section>
-				</section>
-				<section id="awards" class="section">
-					<h2><i class="fa fa-trophy left"></i>Awards</h2>
-					<section class="section-sub section-sub-award">
-						<h3>Digital PSU - Economic Times</h3>
-						<h4>30 September 2022</h4>
-						<p></p>
-					</section>
-					<section class="section-sub section-sub-award">
-						<h3>Environmental Sustainability (Green Initiatives) - Economic Times</h3>
-						<h4>30 September 2022</h4>
-						<p></p>
-					</section>
-					<section class="section-sub section-sub-award">
-						<h3>Digital PSU Award for In-house developed On-premise Machine Learning Model for ITSM - Governance Now</h3>
-						<h4>28 February 2020</h4>
-						<p>Digital PSU Award at 7th PSU Awards by Hon’ble Minister Shri Arjun Ram Meghwal for developing on-premise Machine Learning models for faster resolution of IT Issues.</p>
-					</section>
-					<section class="section-sub section-sub-award">
-						<h3>Chief Minister’s Excellence Award - Chef Minister of Madhya Pradesh</h3>
-						<h4>30 June 2010</h4>
-						<p></p>
-					</section>
-				</section>
-				<section id="interests" class="section">
-					<h2><i class="fa fa-star left"></i>Interests</h2>
-					<section class="section-sub section-sub-interest">
-						<h3 class="skills">When not in front of a Computer, I like to ride my Bike</h3>
-						<ul class="list-set keywords">
-							<li>Bike Riding</li>
-						</ul>
-					</section>
-					<section class="section-sub section-sub-interest">
-						<h3 class="skills">Chances are you&#39;ll see me with my Headphones on</h3>
-						<ul class="list-set keywords">
-							<li>Music</li>
-						</ul>
-					</section>
-				</section>
-				<section id="languages" class="section">
-					<h2><i class="fa fa-quote-left left"></i>Languages</h2>
-					<section class="section-sub section-sub-language">
-						<h3>English</h3>
-						<h4>Fluency: Fluent</h4>
-					</section>
-					<section class="section-sub section-sub-language">
-						<h3>Hindi</h3>
-						<h4>Fluency: Fluent</h4>
-					</section>
-				</section>
-				<section id="references" class="section">
-					<h2><i class="fa fa-thumbs-up left"></i>References</h2>
-					<blockquote>
-						It is my pleasure to recommend Satish. He is passionate about writing code and solving clients’ problems through the development of creative and innovative software. He has tremendous potential. Satish is vocal about his software ideas, but respects his superiors and enthusiastically tackles every assignment as he is directed. He is friendly, easy to get along with, well-liked by our clients and respected by his co-workers.
-Forever the student, Satish takes courses frequently to stay up-to-date on the latest techniques in software development. He is able to thoroughly focus on every project and is not easily distracted. He comprehends instructions quickly and is flexible when changes have to be made in the original plan. Satish is a skillful communicator both written and verbal and works extremely well with our clients, some of whom request him specifically to handle their jobs.
-Satish is dedicated to providing quality work. He checks and rechecks his software before turning it in for presentation to the client. He strives to make his programs as user friendly as possible understanding that not everyone is an expert programmer. He is detail oriented and rarely has any bugs in his finished product. His energy is limitless and his enthusiasm serves to motivate everyone on his team. I am sure he will succeed wherever he goes.
-						<div class="name">- Prashant Sharma</div>
-					</blockquote>
-					<blockquote>
-						Satish is a proactive and tireless contributor who would make a great addition to any team. As working with BPCL I met to Satish as part of BITS project team. Satish impressed all of us (whole team of BITS and other colleges) by transforming the logics and full use of technology ensuing awkward silence into a lively icebreaker discussion among the team, and he even initiated a usages of technology, Best practices and design patter  for the BITS project which is using by BPCL organization all over the india. Throughout the time when I have been there in project , Satish completed his assignments&#x2F;task on time and never failed to add a creative touch when appropriate. I would highly recommend his for any position, as he naturally rises to the occasion when presented with something he is passionate about.
-						<div class="name">- Pradeep Atkari </div>
-					</blockquote>
-				</section>
-			</main>
-		</div>
-	</body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Satish Yadav — enterprise engineer, Senior Manager at BPCL, and technical writer. Systems, stories, and a little wordplay.">
+  <link rel="canonical" href="https://satishyadav.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Satish Yadav">
+  <meta property="og:title" content="Satish Yadav — Systems & stories">
+  <meta property="og:description" content="Enterprise engineer. Technical writer. A little wordplay. Explore the systems, stories, and journey of Satish Yadav.">
+  <meta property="og:url" content="https://satishyadav.com/">
+  <meta property="og:image" content="https://satishyadav.com/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://satishyadav.com/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Satish Yadav. Serious systems. Clear thinking. A little wordplay.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@punskaari">
+  <meta name="twitter:creator" content="@punskaari">
+  <meta name="twitter:title" content="Satish Yadav — Systems & stories">
+  <meta name="twitter:description" content="Enterprise engineer. Technical writer. A little wordplay. Explore the systems, stories, and journey of Satish Yadav.">
+  <meta name="twitter:image" content="https://satishyadav.com/og-image.jpg">
+  <meta name="twitter:image:alt" content="Satish Yadav. Serious systems. Clear thinking. A little wordplay.">
+  <meta name="theme-color" content="#f7f6f2">
+  <title>Satish Yadav — Systems & stories</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Satish Yadav home">satish yadav<span class="logo-dot">.</span><span class="wordmark-note">ENGINEER & HUMAN</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">+</span></button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#writing">Writing</a><a href="#journey">Journey</a><a class="nav-contact" href="#connect">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> MUMBAI, INDIA <span class="eyebrow-divider">/</span> HELLO, WORLD.</div>
+        <h1 id="hero-title">Serious systems.<br>Clear thinking.<br><span class="serif blue">A little wordplay.</span></h1>
+        <p class="hero-description">I’m Satish. I build enterprise software, make complex technology understandable, and occasionally turn a perfectly good sentence into a pun.</p>
+        <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="#writing">Read my field notes <span aria-hidden="true">→</span></a></div>
+        <div class="hero-role"><span class="tiny-label">CURRENT CHAPTER</span><p>Senior Manager <span class="muted">at</span> Bharat Petroleum<br><span class="muted">Engineer at heart. Leader by practice.</span></p></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame"><img src="portrait.jpg" alt="Satish Yadav" width="600" height="600" fetchpriority="high"><span class="portrait-index">FIG. 01 — THE HUMAN BEHIND THE CODE</span></div>
+        <div class="portrait-sticker"><span aria-hidden="true">✳</span><span>Built on curiosity.<br>Always learning.</span></div>
+        <div class="margin-note"><span class="handwritten">Not just another<br>developer portfolio.</span><span aria-hidden="true">↖</span></div>
+        <div class="visual-coordinate" aria-hidden="true">19.0760° N &nbsp; 72.8777° E</div>
+      </div>
+      <a class="scroll-cue" href="#proof"><span aria-hidden="true">↓</span> THERE’S MORE TO THE STORY</a>
+    </section>
+    <section id="proof" class="proof-strip section-shell" aria-label="Career highlights">
+      <div><span class="proof-number">12<span>+</span></span><p>years building<br>enterprise software</p></div>
+      <div><span class="proof-number">.NET</span><p>runtime contributor<br>acknowledged by Microsoft</p></div>
+      <div><span class="proof-number">#1</span><p>Veracode Secure<br>Code Challenge</p></div>
+      <div class="recognition-stats"><div><span class="proof-number">6</span><p>honors & awards</p></div><div><span class="proof-number">23</span><p>certifications earned</p></div></div>
+    </section>
+    <section class="section-shell work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><div class="eyebrow">01 / SELECTED WORK</div><h2 id="work-title">Built for the <span class="serif">real world.</span></h2></div><p>Not just shipped code.<br>Systems that help people get things done.</p></div>
+      <div class="project-grid">
+        <button class="project-card featured-project" data-project="bitss" aria-haspopup="dialog"><div class="card-top"><span class="pill">ENTERPRISE / MACHINE LEARNING</span><span class="card-arrow" aria-hidden="true">↗</span></div><div class="system-diagram" aria-hidden="true"><span class="diagram-input">A question.<br>A request.<br>A problem.</span><span class="diagram-line"></span><span class="diagram-core">BITSS<span>intelligence, applied</span></span><span class="diagram-line"></span><span class="diagram-output">A better<br>working day.</span></div><div class="project-copy"><span class="tiny-label">BHARAT PETROLEUM</span><h3>Less friction.<br>More intelligence.</h3><p>An in-house IT services platform connecting support, automation, and machine learning.</p><span class="case-link">Explore BITSS <span aria-hidden="true">→</span></span></div></button>
+        <button class="project-card api-project" data-project="api" aria-haspopup="dialog"><div class="card-top"><span class="pill">PLATFORM / IDENTITY</span><span class="card-arrow" aria-hidden="true">↗</span></div><div class="api-art" aria-hidden="true"><span>{</span><div>one platform.<br>many possibilities.<i>authorized.</i></div><span>}</span></div><div class="project-copy"><span class="tiny-label">BHARAT PETROLEUM</span><h3>A common language<br>for enterprise APIs.</h3><p>Standardized authorization, onboarding, and API development across teams.</p><span class="case-link">Explore API Platform <span aria-hidden="true">→</span></span></div></button>
+        <button class="project-card sms-project" data-project="sms" aria-haspopup="dialog"><div class="card-top"><span class="pill">MESSAGING / INTEGRATION</span><span class="card-arrow" aria-hidden="true">↗</span></div><div class="project-art messaging-art" aria-hidden="true"><span class="message-bubble">one platform.</span><span class="message-bubble reply-bubble">many conversations.</span><span class="delivery-note">REQUEST → QUEUE → DELIVERY</span></div><div class="project-copy"><span class="tiny-label">BHARAT PETROLEUM</span><h3>Critical messages.<br>One connected system.</h3><p>SMS Pro unifies messaging APIs, processing queues, delivery webhooks, and reporting.</p><span class="case-link">Explore SMS Pro <span aria-hidden="true">→</span></span></div></button>
+        <button class="project-card ideas-project" data-project="ideas" aria-haspopup="dialog"><div class="card-top"><span class="pill">INNOVATION / ENGAGEMENT</span><span class="card-arrow" aria-hidden="true">↗</span></div><div class="project-art ideas-art" aria-hidden="true"><span class="idea-spark">✳</span><span class="idea-caption">small spark.<br><i>new possibilities.</i></span></div><div class="project-copy"><span class="tiny-label">BHARAT PETROLEUM</span><h3>Good ideas deserve<br>room to grow.</h3><p>An enterprise platform connecting employee ideas, innovation, rewards, and recognition.</p><span class="case-link">Explore Enterprise Ideas Platform <span aria-hidden="true">→</span></span></div></button>
+        <button class="project-card measurement-project" data-project="measurement" aria-haspopup="dialog"><div class="card-top"><span class="pill">DIGITIZATION / PAPERLESS WORKFLOWS</span><span class="card-arrow" aria-hidden="true">↗</span></div><div class="project-art measurement-art" aria-hidden="true"><div class="measurement-sheet"><span>eMBook / FIELD NOTES</span><div><i></i><i></i><i></i></div><strong>less paper.<br>more progress.</strong></div></div><div class="project-copy"><span class="tiny-label">BHARAT PETROLEUM</span><h3>A new chapter<br>for measurement.</h3><p>E-Measurement Book turns a paper-based enterprise process into a digital workflow.</p><span class="case-link">Explore E-Measurement Book <span aria-hidden="true">→</span></span></div></button>
+      </div>
+      <p class="section-footnote">Enterprise work, shared responsibly. These notes describe my contribution—not confidential implementation details.</p>
+    </section>
+    <section class="writing-section" id="writing" aria-labelledby="writing-title"><div class="section-shell">
+      <div class="section-heading"><div><div class="eyebrow">02 / FIELD NOTES</div><h2 id="writing-title">Complex ideas.<br><span class="serif">Plain language.</span></h2></div><div><p>Things I learned the hard way,<br>so you don’t always have to.</p><a class="text-link" href="https://read.satishyadav.com" target="_blank" rel="noopener noreferrer">Visit the blog <span aria-hidden="true">↗</span></a></div></div>
+      <div class="featured-writing"><a class="lead-article" href="https://read.satishyadav.com/5-things-i-wish-i-knew-before-writing-1-million-lines-of-code" target="_blank" rel="noopener noreferrer"><span class="tiny-label">ENGINEERING CRAFT / 2023</span><span class="article-art" aria-hidden="true">readable<br><span class="serif">&gt; clever.</span></span><h3>5 things I wish I knew before writing 1 million lines of code</h3><span class="case-link">A few lessons worth keeping <span aria-hidden="true">↗</span></span></a><div class="article-shortlist"><a href="https://read.satishyadav.com/an-i-dont-know-what-docker-is-and-at-this-point-im-too-afraid-to-ask-guide-to-docker" target="_blank" rel="noopener noreferrer"><span class="tiny-label">CONTAINERS / 2022</span><h3>The “too afraid to ask” guide to Docker</h3><span aria-hidden="true">↗</span></a><a href="https://read.satishyadav.com/managing-technical-debt-with-ndepend" target="_blank" rel="noopener noreferrer"><span class="tiny-label">MAINTAINABILITY / 2022</span><h3>Making technical debt visible</h3><span aria-hidden="true">↗</span></a><a href="https://read.satishyadav.com/series/whats-new-in-dotnet-9" target="_blank" rel="noopener noreferrer"><span class="tiny-label">THE .NET ECOSYSTEM / 10-PART SERIES</span><h3>A field guide to .NET 9</h3><span aria-hidden="true">↗</span></a></div></div>
+      <details class="archive"><summary>Browse the complete writing archive <span>36 articles <span aria-hidden="true">+</span></span></summary><div class="archive-controls"><label for="article-search">Find a field note</label><input id="article-search" type="search" placeholder="Search Docker, C#, APIs…"><div class="filters" role="group" aria-label="Filter articles"><button class="filter active" data-filter="all" aria-pressed="true">All</button><button class="filter" data-filter="dotnet" aria-pressed="false">.NET</button><button class="filter" data-filter="engineering" aria-pressed="false">Engineering</button><button class="filter" data-filter="tools" aria-pressed="false">Tools & life</button></div></div><p id="archive-status" aria-live="polite"></p><div id="article-list"></div><noscript><p>JavaScript is needed for this searchable index. All articles remain available on the <a href="https://read.satishyadav.com/archive">current archive</a> and <a href="https://blog.satishyadav.com">historical blog</a>.</p></noscript></details>
+    </div></section>
+    <section class="section-shell journey-section" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading"><div><div class="eyebrow">03 / THE LONG GAME</div><h2 id="journey-title">Still building.<br><span class="serif">Always becoming.</span></h2></div><p>From computer science to public-sector technology.<br>Every chapter, not just the latest title.</p></div>
+      <div class="journey-grid"><div class="journey-manifesto"><span class="tiny-label">A FEW THINGS I BELIEVE</span><p>Good software starts with <em>understanding people.</em> Good engineering makes room for <em>the next person.</em> And the best way to learn something is to <em>explain it.</em></p><a class="text-link" href="https://www.linkedin.com/in/isatishyadav/" target="_blank" rel="noopener noreferrer">My professional story on LinkedIn <span aria-hidden="true">↗</span></a></div>
+      <ol class="timeline career-timeline">
+        <li><span class="timeline-date">FEB 2026 — PRESENT</span><h3>A new lens on leadership</h3><p>Executive MBA · SPJIMR. An ongoing management chapter alongside enterprise technology.</p></li>
+        <li><span class="timeline-date">APR 2025 — PRESENT</span><h3>Senior Manager</h3><p>Bharat Petroleum Corporation Limited · Mumbai. Continuing the journey in public-sector technology, with SAP ERP, NetWeaver, and ABAP among my current skills.</p></li>
+        <li><span class="timeline-date">APR 2021 — MAR 2025</span><h3>Manager</h3><p>BPCL · Enterprise application development, solution architecture, and team leadership. Led the Enterprise Ideas Platform and implementation of TCCCPR requirements.</p></li>
+        <li><span class="timeline-date">APR 2017 — MAR 2021</span><h3>Assistant Manager</h3><p>BPCL · Architected and developed SMS Pro and the centralized API Platform, spanning messaging, integrations, onboarding, and authorization.</p></li>
+        <li><span class="timeline-date">APR 2015 — MAR 2017</span><h3>Executive</h3><p>BPCL · Architected, designed, and developed BITSS, the in-house IT services system, and its machine-learning initiative.</p></li>
+        <li><span class="timeline-date">JUN 2014 — MAR 2015</span><h3>Management Trainee</h3><p>BPCL · Built critical features for retail outlet onboarding and investment approvals across India.</p></li>
+        <li><span class="timeline-date">2010 — 2014</span><h3>The computer science chapter</h3><p>B.Tech., Computer Science · Maulana Azad National Institute of Technology. College tech-fest promotional team and early software projects.</p></li>
+      </ol></div>
+      <details class="milestone-archive"><summary>Beyond the job titles <span>Projects, recognition & learning <span aria-hidden="true">+</span></span></summary>
+        <div class="milestone-columns">
+          <section><h3>Projects & contributions</h3><ol class="timeline">
+            <li><span class="timeline-date">NOV 2023 — PRESENT</span><h4>Enterprise Ideas Platform</h4><p>Led an idea-management platform for engagement, innovation, rewards, and recognition.</p></li>
+            <li><span class="timeline-date">OCT — NOV 2023</span><h4>Aadhaar FaceRD eKYC</h4><p>Face-authentication integration for secure live-image capture.</p></li>
+            <li><span class="timeline-date">JUN 2021 — OCT 2022</span><h4>E-Measurement Book</h4><p>Architected and developed a paperless measurement-book initiative.</p></li>
+            <li><span class="timeline-date">APR — JUN 2022</span><h4>GraphQL for an internal microservice</h4><p>Mission-critical APIs using .NET 6, HotChocolate, and OAuth.</p></li>
+            <li><span class="timeline-date">FEB — APR 2021</span><h4>Retention money & bank guarantee release</h4><p>Angular and TypeScript SPA with SAP Gateway OData and ASP.NET Core APIs.</p></li>
+            <li><span class="timeline-date">2021</span><h4>Contributing to the .NET runtime</h4><p>Code merged into Microsoft’s .NET runtime; acknowledged on the .NET 6 thank-you page.</p></li>
+            <li><span class="timeline-date">APR 2019 — MAY 2020</span><h4>Centralized API Platform</h4><p>Shared API development, authorization, and client onboarding.</p></li>
+            <li><span class="timeline-date">FEB — MAY 2020</span><h4>Magic Link</h4><p>Extensible sign-in system using Angular, ASP.NET Core 3.1, and JWT.</p></li>
+            <li><span class="timeline-date">DEC 2019 — FEB 2020</span><h4>Shawt</h4><p>Link shortening with static and dynamic links and click analytics.</p></li>
+            <li><span class="timeline-date">FEB — MAR 2019</span><h4>OnlyOTP</h4><p>General-purpose OTP generation, storage, and validation library in C# and .NET Standard.</p></li>
+            <li><span class="timeline-date">JAN — JUL 2018</span><h4>SMS Pro</h4><p>Unified enterprise SMS APIs, queues, webhooks, and reporting.</p></li>
+            <li><span class="timeline-date">MAR 2015 — FEB 2016</span><h4>BITSS</h4><p>In-house IT services, automation, and machine-learning-powered support.</p></li>
+            <li><span class="timeline-date">FEB 2015</span><h4>Project Boond</h4><p>Volunteered on behalf of BPCL in an economic-empowerment initiative.</p></li>
+            <li><span class="timeline-date">2013 / COLLEGE</span><h4>Early experiments</h4><p>A Windows 7 registry forensic-analysis tool and MouseClick, an application for typing with mouse clicks.</p></li>
+          </ol></section>
+          <section><h3>Recognition & continued learning</h3><ol class="timeline">
+            <li><span class="timeline-date">FEB 2026</span><h4>BPCL Certificate of Achievement</h4><p>Recognition for FI Liabilities Automation.</p></li>
+            <li><span class="timeline-date">2025</span><h4>Leadership development</h4><p>Management development program at XLRI Jamshedpur and participation in BPCL’s YouNGAGE 2025.</p></li>
+            <li><span class="timeline-date">MAY 2025</span><h4>Microsoft Back-End Developer</h4><p>Microsoft Back-End Developer Professional Certificate.</p></li>
+            <li><span class="timeline-date">FEB 2025</span><h4>SAP ABAP Cloud certification</h4><p>SAP Certified Developer Associate — ABAP Cloud. Earned February 2025; the exported credential shows expiry in February 2026.</p></li>
+            <li><span class="timeline-date">2024</span><h4>Security & AI learning</h4><p>Represented BPCL in the EIL Bug Bounty Event; the team placed second runner-up. Completed Google’s Generative AI Specialization in May.</p></li>
+            <li><span class="timeline-date">SEP 2023</span><h4>CII DX Awards</h4><p>Innovative Practice Award under Operational Excellence for iBroma: Intelligent Asset Maintenance App.</p></li>
+            <li><span class="timeline-date">2023</span><h4>SAP & C# learning</h4><p>SAP UX (May), Fiori (June), Business Technology Platform (July), ABAP Programming on SAP BTP (August), and Foundational C# with Microsoft (September).</p></li>
+            <li><span class="timeline-date">2022</span><h4>Recognition for E-Measurement Book</h4><p>Gold at the Global Petroleum Awards, World Petroleum Technology Congress. ET Ascent recognition in Environmental Sustainability and Digital PSU categories for the enterprise digitization initiative.</p></li>
+            <li><span class="timeline-date">2022</span><h4>GraphQL & Python</h4><p>Apollo Graph Developer — Associate (August) and SAP Python — Beginner (June).</p></li>
+            <li><span class="timeline-date">2021</span><h4>Veracode Secure Code Challenge</h4><p>World rank #1. Also earned Veracode Security Labs Champion Levels 1, 2, and 3.</p></li>
+            <li><span class="timeline-date">2021</span><h4>Cloud, craft & collaboration</h4><p>Atlassian Git (February), AWS Cloud Practitioner (April), HackerRank C# (May), Scrum Fundamentals (July), and AWS Developer — Associate (September). Credential dates describe learning history, not current certification validity.</p></li>
+            <li><span class="timeline-date">2020</span><h4>Digital PSU recognition</h4><p>Governance Now’s 7th PSU Awards recognized the machine-learning initiative in BITSS.</p></li>
+            <li><span class="timeline-date">2018 — 2019</span><h4>Data & infrastructure foundations</h4><p>HarvardX R Basics (August 2018), University of Michigan SQL and Google Kubernetes Engine (June 2019).</p></li>
+            <li><span class="timeline-date">ADDITIONAL FOUNDATIONS</span><h4>Learning beyond a timeline</h4><p>Microsoft Specialist in C#, Microsoft Certified Professional, Android Application Development, and .NET Foundation membership. Dates are not specified in the export.</p></li>
+          </ol></section>
+        </div>
+        <p class="section-footnote">Milestones follow the available LinkedIn export. Six honors and awards and 23 licenses and certifications are listed there; truncated entries are not reconstructed. Team awards are credited to the initiative or team.</p>
+      </details>
+    </section>
+    <section class="section-shell human-section" aria-labelledby="human-title"><div class="human-card"><div><div class="eyebrow">04 / OFF THE CLOCK</div><h2 id="human-title">Same human.<br><span class="serif">Different syntax.</span></h2><p>On the internet, you might also know me as <strong>Punskaari</strong>. The curiosity stays. The wordplay gets a little more screen time.</p><a class="text-link" href="https://x.com/punskaari" target="_blank" rel="noopener noreferrer">Meet @punskaari <span aria-hidden="true">↗</span></a></div><div class="human-art" aria-hidden="true"><span class="asterisk">✳</span><span class="human-caption">a serious engineer<br>with an unserious side.</span></div></div></section>
+    <section class="section-shell connect-section" id="connect" aria-labelledby="connect-title"><div class="eyebrow">05 / GOOD THINGS START WITH A CONVERSATION</div><h2 id="connect-title">Have something<br><span class="serif">worth building?</span><a href="https://www.linkedin.com/in/isatishyadav/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Satish on LinkedIn">↗</a></h2><div class="connect-bottom"><p>Engineering, ideas, writing, or a really good pun.<br>There’s usually something to talk about.</p><a class="button primary" href="https://www.linkedin.com/in/isatishyadav/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer section-shell"><a class="wordmark" href="#home">satish yadav<span class="logo-dot">.</span></a><p>Systems. Stories. Still figuring things out.</p><div><a href="https://github.com/iSatishYadav" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://read.satishyadav.com" target="_blank" rel="noopener noreferrer">Blog ↗</a><a href="https://x.com/punskaari" target="_blank" rel="noopener noreferrer">X ↗</a></div><span class="copyright">© <span id="year">2026</span> Satish Yadav</span></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" aria-label="Close project details">Close <span aria-hidden="true">×</span></button><div class="eyebrow" id="dialog-category"></div><h2 id="dialog-title"></h2><p id="dialog-intro"></p><div id="dialog-content"></div><p class="dialog-note">Based on my published professional profile. Outcomes are described without unverified metrics or internal materials.</p></div></dialog>
+</body>
 </html>

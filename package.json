@@ -1,15 +1,10 @@
 {
-  "name": "sky",
+  "name": "satish-yadav-portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Static editorial portfolio. Serve the repository root with the globally installed http-server CLI. Source exports are gitignored, but must not be included in public deployments.",
   "scripts": {
-    "test": "node index.js"
-  },
-  "author": "Satish K. Yadav",
-  "license": "ISC",
-  "dependencies": {
-    "jsonresume-theme-dark-classy-responsive": "1.0.2",
-    "jsonresume-theme-eloquent": "^3.0.2"
+    "start": "http-server . -p 3000 -c-1",
+    "test": "node --test tests.cjs"
   }
 }

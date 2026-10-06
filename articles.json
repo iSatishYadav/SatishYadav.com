@@ -1,0 +1,218 @@
+[
+  {
+    "title": "What's New in .NET Aspire 9.0",
+    "url": "https://read.satishyadav.com/10-whats-new-in-dotnet-aspire-9-0",
+    "date": "2024-12-18T10:22:29.691Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's New in the SDK and Tooling for .NET 9",
+    "url": "https://read.satishyadav.com/9-whats-new-in-the-sdk-and-tooling-for-dotnet-9",
+    "date": "2024-12-18T10:22:27.676Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's New in .NET Libraries for .NET 9",
+    "url": "https://read.satishyadav.com/8-whats-new-in-dotnet-libraries-for-dotnet-9",
+    "date": "2024-12-18T10:22:26.360Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's new in .NET MAUI for .NET 9",
+    "url": "https://read.satishyadav.com/7-whats-new-in-dotnet-maui-for-dotnet-9",
+    "date": "2024-12-18T10:22:17.266Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's new in ML.NET",
+    "url": "https://read.satishyadav.com/6-whats-new-in-ml-net",
+    "date": "2024-12-18T10:22:12.133Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's New in EF Core 9",
+    "url": "https://read.satishyadav.com/4-whats-new-in-ef-core-9",
+    "date": "2024-12-18T10:05:28.786Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's New in ASP.NET Core 9.0",
+    "url": "https://read.satishyadav.com/5-whats-new-in-aspnet-core-9-0",
+    "date": "2024-12-18T10:02:09.692Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's New in C# 13",
+    "url": "https://read.satishyadav.com/3-whats-new-in-csharp-13",
+    "date": "2024-12-18T09:59:47.543Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's New in the .NET 9 Runtime",
+    "url": "https://read.satishyadav.com/2-whats-new-in-dotnet-9-runtime",
+    "date": "2024-12-18T09:57:12.969Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What's New in .NET 9",
+    "url": "https://read.satishyadav.com/1-whats-new-in-dotnet-9",
+    "date": "2024-12-18T09:54:13.799Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "What’s new in .NET 8",
+    "url": "https://read.satishyadav.com/whats-new-in-dotnet-8",
+    "date": "2023-11-16T18:59:03.137Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "Microsoft finally announces the official C# Certification",
+    "url": "https://read.satishyadav.com/microsoft-finally-announces-the-official-c-sharp-certification",
+    "date": "2023-09-19T10:22:25.132Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "5 things I wish I knew before writing 1 Million lines of code",
+    "url": "https://read.satishyadav.com/5-things-i-wish-i-knew-before-writing-1-million-lines-of-code",
+    "date": "2023-06-24T16:54:30.200Z",
+    "category": "engineering"
+  },
+  {
+    "title": "Managing Technical Debt with NDepend!",
+    "url": "https://read.satishyadav.com/managing-technical-debt-with-ndepend",
+    "date": "2022-09-03T09:21:42.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": "Automate Windows Software and Apps' installation!",
+    "url": "https://read.satishyadav.com/automate-windows-software-and-apps-installation",
+    "date": "2022-08-12T13:13:11.000Z",
+    "category": "tools"
+  },
+  {
+    "title": "An “I don’t know what Docker is and at this point I’m too afraid to ask” guide to Docker.",
+    "url": "https://read.satishyadav.com/an-i-dont-know-what-docker-is-and-at-this-point-im-too-afraid-to-ask-guide-to-docker",
+    "date": "2022-03-12T03:41:27.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": "🆕 SQL Server 2022 First Look - Top 5 New Features (Bonus 5 Features)",
+    "url": "https://read.satishyadav.com/sql-server-2022-first-look-top-5-new-features-bonus-5-features",
+    "date": "2021-11-05T06:57:20.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": "How to Install Windows 11 on unsupported Devices - Officially - No Crack - No 3rd Party Tool",
+    "url": "https://blog.satishyadav.com/How-to-Install-Windows-11-on-unsupported-Devices-Officially-No-Crack-No-3rd-Party-Tool/",
+    "date": "2021-10-10",
+    "category": "tools"
+  },
+  {
+    "title": "Defense In-Depth — Designing an HTTP Content Length Restriction Middleware - ASP.NET 5 (or .NET Core)",
+    "url": "https://blog.satishyadav.com/defense-in-depth-designing-an-http-content-length-restriction-middleware-asp-net-5-or-net-core/",
+    "date": "2021-08-22",
+    "category": "engineering"
+  },
+  {
+    "title": "How to setup and use DynamoDb Locally - Free",
+    "url": "https://read.satishyadav.com/how-to-setup-and-use-dynamodb-locally-free",
+    "date": "2021-07-06T15:41:54.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": ".NET 6 LINQ New Features",
+    "url": "https://read.satishyadav.com/net-6-linq-new-features",
+    "date": "2021-07-04T15:33:16.000Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "Visual Studio 2022 will write code for you!!! - Visual Studio 2022 Series - Part 1",
+    "url": "https://read.satishyadav.com/visual-studio-2022-will-write-code-for-you-visual-studio-2022-series-part-1",
+    "date": "2021-06-18T11:15:11.000Z",
+    "category": "tools"
+  },
+  {
+    "title": "What is WebAssembly and how to create a WebAssembly app?",
+    "url": "https://blog.satishyadav.com/What-is-Webassembly-and-how-do-I-create-a-Webassembly-application/",
+    "date": "2021-02-20",
+    "category": "dotnet"
+  },
+  {
+    "title": "Using Feature Flags aka Feature Toggles in Microservices and DevOps - AWS/Azure or On-Prem",
+    "url": "https://read.satishyadav.com/using-feature-flags-aka-feature-toggles-in-microservices-and-devops-awsazure-or-on-prem",
+    "date": "2021-02-19T04:37:12.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": "Creating a gRPC Microservice and Client in .NET Core",
+    "url": "https://read.satishyadav.com/creating-a-grpc-microservice-and-client-in-net-core",
+    "date": "2021-01-31T16:35:50.000Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "OnlyOTP - An OTP generation, storage, and validation solution",
+    "url": "https://read.satishyadav.com/onlyotp-an-otp-generation-storage-and-validation-solution",
+    "date": "2021-01-21T16:37:35.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": "How to create MSMQs in your Windows 10 local development machine (2 ways)!",
+    "url": "https://read.satishyadav.com/how-to-create-msmqs-in-your-windows-10-local-development-machine-2-ways",
+    "date": "2020-09-09T16:41:39.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": "How to get started with Couchbase with ASP.NET Core 3 using Linq2Couchbase AND Dependency Injection",
+    "url": "https://read.satishyadav.com/how-to-get-started-with-couchbase-with-aspnet-core-3-using-linq2couchbase-and-dependency-injection",
+    "date": "2020-01-13T16:47:27.000Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "How to Scaffold Controllers with database views to EF Core 2.1",
+    "url": "https://read.satishyadav.com/how-to-scaffold-controllers-with-database-views-to-ef-core-21",
+    "date": "2018-10-11T16:49:10.000Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "How to prevent ASP.NET applications to shut down when idle",
+    "url": "https://read.satishyadav.com/how-to-prevent-aspnet-applications-to-shut-down-when-idle",
+    "date": "2018-01-25T16:51:25.000Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "How to fool Windows and clean your C drive without deleting anything. Without Admin access.",
+    "url": "https://read.satishyadav.com/how-to-fool-windows-and-clean-your-c-drive-without-deleting-anything-without-admin-access",
+    "date": "2017-11-05T16:53:47.000Z",
+    "category": "tools"
+  },
+  {
+    "title": "Convert Markdown to Google AMP using Amper",
+    "url": "https://read.satishyadav.com/convert-markdown-to-google-amp-using-amper",
+    "date": "2017-08-21T16:55:17.000Z",
+    "category": "engineering"
+  },
+  {
+    "title": "How to post multiple entities Web API",
+    "url": "https://read.satishyadav.com/how-to-post-multiple-entities-web-api",
+    "date": "2017-06-14T16:56:24.000Z",
+    "category": "dotnet"
+  },
+  {
+    "title": "Top Google Photos features you're not using (probably)",
+    "url": "https://read.satishyadav.com/top-google-photos-features-youre-not-using-probably",
+    "date": "2017-05-27T16:59:25.000Z",
+    "category": "tools"
+  },
+  {
+    "title": "How am I blogging using Jekyll and GitHub pages from my Android phone",
+    "url": "https://read.satishyadav.com/how-am-i-blogging-using-jekyll-and-github-pages-from-my-android-phone",
+    "date": "2017-05-17T16:57:57.000Z",
+    "category": "tools"
+  },
+  {
+    "title": "Hello World!",
+    "url": "https://blog.satishyadav.com/Hello-World/",
+    "date": "2014-03-03",
+    "category": "tools"
+  }
+]
