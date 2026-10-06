@@ -127,49 +127,4 @@ async function roadScene() {
     console.warn('3D road scene could not load.', error);
   }
 }
-async function gamingScene() {
-  const container = document.querySelector('.gaming-webgl');
-  if (!container) return;
-  try {
-    const render = renderer(container, false);
-    const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x101827);
-    scene.fog = new THREE.Fog(0x101827, 8, 22);
-    lights(scene);
-    const camera = new THREE.PerspectiveCamera(40, 1, .1, 60);
-    camera.position.set(0, 3, 8);
-    camera.lookAt(0, .8, 0);
-    const floor = new THREE.Mesh(new THREE.PlaneGeometry(30, 30), new THREE.MeshStandardMaterial({ color: 0x283448, metalness: .35, roughness: .45 }));
-    floor.rotation.x = -Math.PI / 2;
-    floor.receiveShadow = true;
-    scene.add(floor);
-    for (const x of [-5, -3, 3, 5]) {
-      const column = new THREE.Mesh(new THREE.CylinderGeometry(.24, .34, 5, 20), new THREE.MeshStandardMaterial({ color: 0x3d4a60, metalness: .3, roughness: .5 }));
-      column.position.set(x, 2.5, -4);
-      column.castShadow = true;
-      scene.add(column);
-    }
-    const gltf = await character();
-    const left = avatar(gltf, 0x486bb4, 'Punch_Jab');
-    const right = avatar(gltf, 0xb88159, 'Punch_Cross');
-    scene.add(left.pivot, right.pivot);
-    left.pivot.position.x = -.65;
-    right.pivot.position.x = .65;
-    left.pivot.rotation.y = Math.PI / 2;
-    right.pivot.rotation.y = -Math.PI / 2;
-    const glow = new THREE.PointLight(0x7daaff, 30, 10);
-    glow.position.set(0, 3, -2);
-    scene.add(glow);
-    container.classList.add('loaded');
-    animateScene(render, scene, camera, container, (dt, time) => {
-      left.mixer.update(dt);
-      right.mixer.update(dt * .9);
-      left.pivot.position.x = -.65 + Math.sin(time * .8) * .08;
-      right.pivot.position.x = .65 - Math.sin(time * .8) * .08;
-      camera.position.x = Math.sin(time * .15) * .3;
-      camera.lookAt(0, 1, 0);
-    });
-  } catch (error) { container.remove(); console.warn('3D arena unavailable; using illustrated fallback.', error); }
-}
 roadScene();
-gamingScene();
