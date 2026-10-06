@@ -37,9 +37,9 @@ test('source exports are gitignored and not linked from the portfolio', () => {
   assert.ok(!/\b(?:href|src)="(?:\.\/)?sources?\//.test(html));
 });
 
-test('full-size project cards include all five case studies', () => {
+test('full-size project cards include all six case studies', () => {
   const cards = [...html.matchAll(/<button class="project-card ([^"]+)" data-project="([^"]+)"/g)];
-  assert.deepEqual(cards.map(card => card[2]), ['bitss', 'api', 'sms', 'ideas', 'measurement']);
+  assert.deepEqual(cards.map(card => card[2]), ['bitss', 'api', 'sms', 'ideas', 'measurement', 'retention']);
   assert.ok(cards.every(card => !card[1].includes('compact-project')));
   const app = fs.readFileSync(path.join(directory, 'app.js'), 'utf8');
   for (const card of cards) assert.match(app, new RegExp(`${card[2]}: \\{`));
@@ -54,6 +54,9 @@ test('branding, recognition counts, and every career stage are present', () => {
   }
   for (const date of ['APR 2025', 'APR 2021', 'APR 2017', 'APR 2015', 'JUN 2014']) assert.ok(html.includes(date), date);
   assert.ok(html.includes('Beyond the job titles'));
+  assert.match(html, /<details class="milestone-archive" open>/);
+  assert.ok(!html.includes('Based on my published professional profile'));
+  assert.ok(html.includes('class="bitss-network"'));
 });
 
 test('social sharing metadata uses production URLs and a real JPEG image', () => {
